@@ -25,7 +25,21 @@
       virtual devices within a network. It can be used in a variety of 
       settings, including network virtualization
     </p>
-         
+     <h2 class="text-center mt-2 mb-6">Site Technician</h2>
+      <div>
+        {% for job in jobs %}
+          <div>
+            <h4 class="mt-4 mb-6">{{job['title']}}</h4>
+            <div>Technician:{{job['Technician 1']}},
+                 Technician:{{job['Technician 2']}},
+                 Technician:{{job['Technician 3']}},
+                 Technician:{{job['Technician 4']}},              
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="text-center">
+       <button class="mt-4">Copyright 2022, ITwebSA</button>
     </div>
   </body>
 </html>
