@@ -5,7 +5,7 @@ app = Flask(__name__)
 JOB = [
   {
     'id': 1,
-    'title': 'Conuntry 1',
+    'title': 'Country 1',
     'Technician 1': 'Name 1',
     'Technician 2': 'Name 2',
     'Technician 3': 'Name 3',
@@ -14,7 +14,7 @@ JOB = [
   },
   {
     'id': 2,
-    'title': 'Conuntry 2',
+    'title': 'Country 2',
     'Technician 1': 'Name 1',
     'Technician 2': 'Name 2',
     'Technician 3': 'Name 3',
@@ -23,7 +23,7 @@ JOB = [
   },
   {    
     'id': 3,
-    'title': 'Conuntry 3',
+    'title': 'Country 3',
     'Technician 1': 'Name 1',
     'Technician 2': 'Name 2',
     'Technician 3': 'Name 3',
@@ -32,7 +32,7 @@ JOB = [
   },
   {
     'id': 4,
-    'title': 'Conuntry 4',
+    'title': 'Country 4',
     'Technician 1': 'Name 1',
     'Technician 2': 'Name 2',
     'Technician 3': 'Name 3',
